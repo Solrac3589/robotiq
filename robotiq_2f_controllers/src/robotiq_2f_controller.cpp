@@ -4,6 +4,7 @@
 
 namespace position_controllers
 {
+
   typedef gripper_action_controller::Robotiq2FActionController<hardware_interface::PositionJointInterface>
           Robotiq2FActionController;
 }
