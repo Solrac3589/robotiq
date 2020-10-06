@@ -7,7 +7,7 @@
 
 #include "robotiq_2f_hw_usb/robotiq_2f_hw_usb.hpp"
 
-bool isReactivateRequested = false;
+bool isReactivateRequested = true;
 bool isStopPressed = false;
 bool wasStopHandled = true;
 void eStopCB(const std_msgs::BoolConstPtr& e_stop_msg)
